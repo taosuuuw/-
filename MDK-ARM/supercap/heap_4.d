@@ -1,0 +1,13 @@
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c
+supercap\heap_4.o: D:\software\ARM\ARMCC\Bin\..\include\stdlib.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+supercap\heap_4.o: D:\software\ARM\ARMCC\Bin\..\include\stddef.h
+supercap\heap_4.o: D:\software\ARM\ARMCC\Bin\..\include\stdint.h
+supercap\heap_4.o: ../Core/Inc/FreeRTOSConfig.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+supercap\heap_4.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h

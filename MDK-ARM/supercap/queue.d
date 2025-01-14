@@ -1,0 +1,15 @@
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/queue.c
+supercap\queue.o: D:\software\ARM\ARMCC\Bin\..\include\stdlib.h
+supercap\queue.o: D:\software\ARM\ARMCC\Bin\..\include\string.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+supercap\queue.o: D:\software\ARM\ARMCC\Bin\..\include\stddef.h
+supercap\queue.o: D:\software\ARM\ARMCC\Bin\..\include\stdint.h
+supercap\queue.o: ../Core/Inc/FreeRTOSConfig.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
+supercap\queue.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h

@@ -1,0 +1,12 @@
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h
+supercap\port.o: D:\software\ARM\ARMCC\Bin\..\include\stddef.h
+supercap\port.o: D:\software\ARM\ARMCC\Bin\..\include\stdint.h
+supercap\port.o: ../Core/Inc/FreeRTOSConfig.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/task.h
+supercap\port.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/list.h
