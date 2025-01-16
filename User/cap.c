@@ -99,6 +99,7 @@ void adc_solve()
 	//   adc_data.cap_i//在定时器中断里计算
 	//* 底盘电压
     adc_data.chas_v = (float)adc_data.adc_list_aver[5] / 4096 * 3.3f * 15 * adc_data.chas_v_m + adc_data.chas_v_a;
+    adc_data.chas_v *= 2.09615f;//视为线性变化，乘以系数接近真实值
     //* 底盘电流
 	adc_data.chas_i = -((float)adc_data.adc_list_aver[2] / 4096 * 3.3f - 1.65f) / 0.062f * adc_data.chas_i_m + adc_data.chas_i_a;
     
