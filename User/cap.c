@@ -16,7 +16,7 @@
 
 #define cap_vol_max_limit 24.0f
 #define cap_vol_min_limit 3.5f
-#define charge_tolerance 0.1f
+#define charge_tolerance 1e-6f
 
 
 float bat_power = 0;
