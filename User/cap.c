@@ -341,7 +341,7 @@ void cap_pid_bat_power()
         {
             pid_bat_power.OutCurrent *= max(0.5f*(cap_vol_max_limit - adc_data.cap_v), 0);
         }
-        else pid_bat_power.OutCurrent = 0;//差值小于容差（0.1）输出0
+        else pid_bat_power.OutCurrent = 0;//差值小于容差（1e-6f）输出0
     }
     
     
@@ -499,7 +499,7 @@ void system_init()
 void error_check()
 {
     static uint32_t timetick[5] = {0};
-    outtime[0] = (adc_data.cap_v > 25) ? ++outtime[0] : 0;  //电容过压计时
+    outtime[0] = (adc_data.cap_v > 24) ? ++outtime[0] : 0;  //电容过压计时
     outtime[1] = (abs(adc_data.cap_i) > 14) ? ++outtime[1] : 0;  //电容过流计时
     outtime[2] = (adc_data.cap_v < 3) ? ++outtime[2] : 0;  //电容欠压计时
     outtime[3] = (adc_data.bat_v < 16) ? ++outtime[3] : 0;  //裁判系统欠压计时
