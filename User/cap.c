@@ -564,7 +564,7 @@ void error_check()
     }
     test11=cap_state.bit.can_receive_miss;
 	
-    if(cap_state.bit.cap_i_over == 1 || cap_state.bit.bat_v_low == 1 || (receive_data.cap_control.bit.cap_switch == 0 && adjust_switch == 0) || pwm_switch == 0)
+    if(cap_state.bit.cap_v_over = 1 || cap_state.bit.cap_i_over == 1 || cap_state.bit.bat_v_low == 1 || (receive_data.cap_control.bit.cap_switch == 0 && adjust_switch == 0) || pwm_switch == 0)
     {
         HAL_HRTIM_WaveformOutputStop(&hhrtim1, HRTIM_OUTPUT_TA1|HRTIM_OUTPUT_TA2|HRTIM_OUTPUT_TD1|HRTIM_OUTPUT_TD2); //Í¨µÀ¹Ø±Õ
         pid_cap_i.PidSwitch = 0;
